@@ -1,0 +1,37 @@
+.clear-btn-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    width:80%;
+}
+.clear-btn{
+    height:40px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    width:120px;
+    background-color: #23268e ;
+    border:0px none;
+    border-radius:8px;
+}
+
+.job-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    padding:2px;
+    margin-top:30px;
+   align-items: center;
+   padding:10px;
+    margin-left:5px;
+}
+.bookmark-title{
+    font-size:24px;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    text-align: center;
+}

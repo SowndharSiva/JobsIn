@@ -1,0 +1,53 @@
+.bg-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.job-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    padding:2px;
+    margin-top:30px;
+   align-items: center;
+   padding:10px;
+    margin-left:5px;
+}
+.button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:8%;
+    margin-bottom:8%;
+
+}
+.load-more-button{
+    height:40px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    width:120px;
+    background-color: #23268e ;
+    border:0px none;
+    border-radius:8px;
+}
+.prev-button{
+    height:40px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    width:120px;
+    background-color: #23268e ;
+    border:0px none;
+    border-radius:8px;
+}
+.page-title{
+    font-size:24px;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}

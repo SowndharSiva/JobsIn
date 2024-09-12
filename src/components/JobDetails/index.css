@@ -1,0 +1,73 @@
+
+.job-title-d{
+    font-size:35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    margin-left:10%;
+}
+.job-location{
+    font-size:17px;
+    color:grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:15px;
+    margin-right:10px;
+}
+.company-name{
+    font-size:17px;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:10%;
+}
+.vertical-line {  
+    width: 2px;   
+    height: 15px;  
+    background-color:grey; 
+    margin-top:23px;
+}  
+.salary-container{
+    display:flex;
+    flex-direction:row;
+    margin-left:10%;
+}
+.horizon-line{
+    width:80%;
+}
+.job-content{
+    font-size:16px;
+    color:grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:15%;
+    margin-right:10px;
+    width:70%;
+}
+.salary-container1{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.job-date{
+    font-size:17px;
+    color:grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:60%;
+    margin-right:10px;
+}
+.job-type{
+    font-size:17px;
+    color:grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:10%;
+}
+.call-btn{
+    height:40px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    width:120px;
+    background-color: #23268e ;
+    border:0px none;
+    border-radius:8px;
+    text-align:center;margin-left:45%;
+    margin-bottom:20px;
+}
