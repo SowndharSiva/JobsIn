@@ -14,10 +14,10 @@
     color:black ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:500;
-    margin-left:5px;
+    margin-left:3%;
     margin-top:1%;
 }
-.company-name{
+.company-name1{
     font-size:17px;
     color:black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,7 +31,7 @@
     margin-left:5px;
 }
 .apply-now-btn{
-    background-color:#ef452a;
+    background-color:#2f36f6;
     color:white;
     border-radius:2px;
     border:0px;
@@ -42,9 +42,9 @@
 }
 .bookmark-btn{
     background-color:white;
-    color:#ef452a;
+    color:#2f36f6;
     border-radius:2px;
-    border:1px solid #ef452a;
+    border:1px solid #2f36f6;
     margin-right:8px;
     margin-left:8px;
     height:30px;

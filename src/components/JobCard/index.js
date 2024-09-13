@@ -20,7 +20,7 @@ const JobCard = ({ job }) => {
         return (
             <div className="job-card">
                 <p className="jobs-title">{job.job_role}</p>
-                <p className="company-name">{job.company_name}</p>
+                <p className="company-name1">{job.company_name}</p>
                 <p className="experience"><FaToolbox /> {job.primary_details.Experience}</p>
                 <p className="experience"><FaMoneyBill /> {job.primary_details.Salary}</p>
                 <p className="experience"><FaLocationArrow />{job.primary_details.Place}</p>

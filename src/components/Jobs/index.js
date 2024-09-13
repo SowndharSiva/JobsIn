@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";  
 import { SpinnerCircular } from 'spinners-react';  
+import { FaInstagram ,FaLinkedin,FaTwitterSquare,FaYoutube, FaFacebook } from "react-icons/fa";
 
 import JobCard from "../JobCard";  
 import "./index.css";  
@@ -20,7 +21,7 @@ const Jobs = () => {
                 setLoading(false);  
             } catch (e) {  
                 setLoading(false);  
-                setError("The Jobs failed to load"); 
+                setError("The Jobs failed to load");   
             }  
         };  
         fetchJobs();  
@@ -37,22 +38,39 @@ const Jobs = () => {
     };  
 
     return (  
-        <div className="bg-container">  
-            <p className="page-title">Jobs Recommended</p>
-            {loading && <SpinnerCircular color="#070871 "/>}
-            {error && <p>ERROR: {error}</p>} 
-            
-            <div className="job-container">  
-                {jobs.map(job => (  
-                    <JobCard key={job.id} job={job} />  
-                ))}  
-            </div>
-            <div>
-            <div className="button-container">  
-                {page > 1 && <button className="prev-button" onClick={loadPrevPage}>Previous</button>}  
-                <button className="load-more-button" onClick={loadMorePage}>Load More</button>
+        <div>  
+            <div className="img-container">  
+                <img src="https://www.workindia.in/employers/_next-images/?url=http%3A%2F%2Fresources.workindia.in%2Femployer%2Fassets%2Fimg%2Flanding_hero.png&w=1920&q=75" alt="home"  className="img"/>  
+                <div>
+                    <button className="hire-btn">Hire now</button>
+                    <button className="hire-btn">Get a Job</button>
+                </div>
             </div>  
-            </div>
+            <div className="bg-container">  
+                <p className="page-title">Jobs Recommended</p>  
+                {loading && <SpinnerCircular color="#070871 "/>}  
+                {error && <p>ERROR: {error}</p>}   
+                
+                <div className="job-container">  
+                    {jobs.map(job => (  
+                        <JobCard key={job.id} job={job} />  
+                    ))}  
+                </div>  
+                <div className="button-container">  
+                    {page > 1 && <button className="prev-button" onClick={loadPrevPage}>Previous</button>}  
+                    <button className="load-more-button" onClick={loadMorePage}>Load More</button>  
+                </div>  
+                <div className="footer_container">
+                    <p className="follow-text">Follow us</p>
+                    <div className="icon-container">
+                    <FaInstagram className="icon"/>
+                    <FaLinkedin  className="icon"/>
+                    <FaTwitterSquare className="icon"/>
+                    <FaYoutube className="icon"/>
+                    <FaFacebook  className="icon"/>
+                    </div>
+                </div>
+            </div>  
         </div>  
     );  
 }  

@@ -1,7 +1,7 @@
 .App {
   display:flex;
   flex-direction:column;
-  
+
 }
 .logo-img{
   height:40px;
@@ -14,22 +14,23 @@
 .nav-link {  
   text-decoration: none;
   color: inherit; 
-  margin-right:25px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right:20px;
+  font-family:'Times New Roman', Times, serif;
   font-size:22px;
-  color:#606465 ;
-  border-bottom:1px solid #606465;
+  color:#6572e7  ;
 }  
 .job-title{
   font-size:30px;
-  color:#ef452a ;
-  font-family:"Roboto";
+  color:#6572e7  ;
+  font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   margin-left:10px;
 
 }
 .nav-container{
   display:flex;
   flex-direction:row;
+  height:auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 
 }
 .logo-container{
@@ -37,6 +38,7 @@
   flex-direction: row;
   gap:10px;
   margin-left:20px;
+  
 }
 .navlink-container{
   margin-top:20px;
@@ -47,7 +49,7 @@
   background-color:#2f36f6  ;
   border:0px;
   color:white;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   border-radius:10px;
   height:30px;
   width:90px;
